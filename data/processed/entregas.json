@@ -1,178 +1,47 @@
 {
   "entregas": [
     {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "prova",
-      "descricao": "AD1 - Projeto 1",
-      "data": "2026-08-26",
-      "passou": true
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "sprint",
-      "descricao": "Sprint 1 - Projeto 1 (E1)",
-      "data": "2026-08-30",
-      "passou": true
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "prova",
-      "descricao": "AE1 - Projeto 1",
-      "data": "2026-09-02",
-      "passou": true
-    },
-    {
-      "disciplina": "Laboratório de Circuitos Elétricos e Eletrônica",
-      "metodo": "trabalho",
-      "descricao": "Trabalho 1 - RC e RL de 1ª ordem",
-      "data": "2026-09-15",
-      "passou": true
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "prova",
-      "descricao": "AD2 - Projeto 1",
-      "data": "2026-09-16",
-      "passou": true
-    },
-    {
       "disciplina": "Desenvolvimento Sustentável na Engenharia",
       "metodo": "prova",
       "descricao": "P1",
       "data": "2026-09-18",
-      "passou": true
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "sprint",
-      "descricao": "Sprint 2 - Projeto 1 (E2)",
-      "data": "2026-09-20",
-      "passou": true
-    },
-    {
-      "disciplina": "Processamento e Transmissão Digital de Sinais",
-      "metodo": "prova",
-      "descricao": "1ª avaliação (AV1)",
-      "data": "2026-09-21",
-      "passou": true
-    },
-    {
-      "disciplina": "Laboratório de Circuitos Elétricos e Eletrônica",
-      "metodo": "trabalho",
-      "descricao": "Trabalho 2 - RLC de 2ª ordem",
-      "data": "2026-09-29",
-      "passou": true
-    },
-    {
-      "disciplina": "Componentes e Circuitos Eletrônicos",
-      "metodo": "prova",
-      "descricao": "P1",
-      "data": "2026-09-29",
-      "passou": true
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "prova",
-      "descricao": "AE2 - Projeto 1",
-      "data": "2026-09-30",
-      "passou": true
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "prova",
-      "descricao": "AD3 (indicada como Projeto 2 no cronograma)",
-      "data": "2026-10-07",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "7 18/09/2026 P1",
+      "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf",
       "passou": true
     },
     {
       "disciplina": "Desenvolvimento Sustentável na Engenharia",
       "metodo": "projeto",
-      "descricao": "Entrega 01 do Projeto - ESG, ODS e aplicações em projetos de engenharia",
+      "descricao": "Entrega 01 do Projeto",
       "data": "2026-10-09",
-      "passou": true
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "sprint",
-      "descricao": "Sprint 3 - Projeto 1 (E3)",
-      "data": "2026-10-11",
-      "passou": true
-    },
-    {
-      "disciplina": "Laboratório de Circuitos Elétricos e Eletrônica",
-      "metodo": "projeto",
-      "descricao": "Projeto 1 - Montagem e Apresentação do Amplificador",
-      "data": "2026-10-27",
-      "passou": true
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "prova",
-      "descricao": "AE1 - Projeto 2",
-      "data": "2026-10-28",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "10 09/10/2026 Entrega 01 do Projeto- ESG. ODS e aplicações em projetos de engenharia",
+      "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf",
       "passou": true
     },
     {
       "disciplina": "Desenvolvimento Sustentável na Engenharia",
       "metodo": "projeto",
-      "descricao": "Entrega 02 do Projeto - Soluções sustentáveis: matriz energética, energias renováveis, eficiência energética",
+      "descricao": "Entrega 2 do Projeto",
       "data": "2026-10-30",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "13 30/10/2026 Entrega 2 Projeto, Soluções sustentáveis: matriz energética, energias renováveis, eficiência energética",
+      "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf",
       "passou": true
-    },
-    {
-      "disciplina": "Laboratório de Circuitos Elétricos e Eletrônica",
-      "metodo": "trabalho",
-      "descricao": "Exercícios - Amplificador (individual em aula)",
-      "data": "2026-11-03",
-      "passou": false
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "prova",
-      "descricao": "AD1 - Projeto 2",
-      "data": "2026-11-11",
-      "passou": false
     },
     {
       "disciplina": "Desenvolvimento Sustentável na Engenharia",
       "metodo": "prova",
       "descricao": "P2",
       "data": "2026-11-13",
-      "passou": false
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "sprint",
-      "descricao": "Sprint 1 - Projeto 2",
-      "data": "2026-11-15",
-      "passou": false
-    },
-    {
-      "disciplina": "Laboratório de Circuitos Elétricos e Eletrônica",
-      "metodo": "projeto",
-      "descricao": "Projeto 2 - Circuito sequencial - Montagem e Apresentação",
-      "data": "2026-11-17",
-      "passou": false
-    },
-    {
-      "disciplina": "Componentes e Circuitos Eletrônicos",
-      "metodo": "prova",
-      "descricao": "P2",
-      "data": "2026-11-17",
-      "passou": false
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "prova",
-      "descricao": "AE2 - Projeto 2",
-      "data": "2026-11-18",
-      "passou": false
-    },
-    {
-      "disciplina": "Laboratório de Circuitos Elétricos e Eletrônica",
-      "metodo": "projeto",
-      "descricao": "Recuperação do Projeto (individual)",
-      "data": "2026-11-24",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "15 13/11/2026 P2",
+      "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf",
       "passou": false
     },
     {
@@ -180,34 +49,10 @@
       "metodo": "projeto",
       "descricao": "Entrega 03 do Projeto",
       "data": "2026-11-27",
-      "passou": false
-    },
-    {
-      "disciplina": "Componentes e Circuitos Eletrônicos",
-      "metodo": "prova",
-      "descricao": "P3 (recuperação)",
-      "data": "2026-12-01",
-      "passou": false
-    },
-    {
-      "disciplina": "Práticas Interdisciplinares de Inovação (PI)",
-      "metodo": "projeto",
-      "descricao": "Entregas Mensais - subentrega final (produto final, documentação, publicação e apresentação)",
-      "data": "2026-12-04",
-      "passou": false
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "sprint",
-      "descricao": "Sprint 2 - Projeto 2",
-      "data": "2026-12-06",
-      "passou": false
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "prova",
-      "descricao": "AD2 - Projeto 2",
-      "data": "2026-12-09",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "17 27/11/2026 Vista de provas, correção esclarecimento de dúvidas e Entrega 03 do Projeto",
+      "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf",
       "passou": false
     },
     {
@@ -215,58 +60,12 @@
       "metodo": "prova",
       "descricao": "Prova substitutiva",
       "data": "2026-12-11",
-      "passou": false
-    },
-    {
-      "disciplina": "Processamento e Transmissão Digital de Sinais",
-      "metodo": "prova",
-      "descricao": "Avaliação de Recuperação",
-      "data": "2026-12-14",
-      "passou": false
-    },
-    {
-      "disciplina": "Estatística e Análise de Dados",
-      "metodo": "prova",
-      "descricao": "AD SUB - Projeto 2 (substitutiva)",
-      "data": "2026-12-16",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "- 11/12/2026 Prova substitutiva",
+      "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf",
       "passou": false
     }
   ],
-  "pendentes": [
-    {
-      "disciplina": "Redes de Computadores e Industriais",
-      "metodo": "trabalho",
-      "descricao": "Trabalhos de pesquisa e de projeto (individuais e em grupo) sobre implantação de redes industriais",
-      "data": null,
-      "motivo": "sem data"
-    },
-    {
-      "disciplina": "Processamento e Transmissão Digital de Sinais",
-      "metodo": "prova",
-      "descricao": "2ª avaliação (AV2) - 23/11 ou 30/11",
-      "data": null,
-      "motivo": "sem data"
-    },
-    {
-      "disciplina": "Processamento e Transmissão Digital de Sinais",
-      "metodo": "trabalho",
-      "descricao": "Três atividades práticas de laboratório com relatórios",
-      "data": null,
-      "motivo": "sem data"
-    },
-    {
-      "disciplina": "Processamento e Transmissão Digital de Sinais",
-      "metodo": "projeto",
-      "descricao": "Projeto dividido em duas fases (Sistema de Aquisição de Dados com transmissão sem fios)",
-      "data": null,
-      "motivo": "sem data"
-    },
-    {
-      "disciplina": "Componentes e Circuitos Eletrônicos",
-      "metodo": "trabalho",
-      "descricao": "Seminários (S1, S2) e Trabalhos (T1 a T4)",
-      "data": null,
-      "motivo": "sem data"
-    }
-  ]
+  "pendentes": []
 }

@@ -1,12 +1,14 @@
 """validar.py - confere as entregas, converte as datas para AAAA-MM-DD e separa os pendentes.
 
 Uso:
-    python src/validar.py                                  # valida data/raw/entregas_raw.json
-    python src/validar.py data/raw/entregas_extraidas.json # valida a saída do extrair.py
+    python src/validar.py                                   # valida data/raw/entregas_raw.json
+    python src/validar.py data/raw/entregas_extraidas.json  # valida a saída do extrair.py
+    python src/validar.py ENTRADA.json --saida teste.json   # grava em outro arquivo
 
 Entrada : lista de entregas em JSON (datas em AAAA-MM-DD, dd/mm/aa ou dd/mm/aaaa).
 Saída   : data/processed/entregas.json, com {"entregas": [...], "pendentes": [...]}.
 """
+import argparse
 import json
 import sys
 from datetime import date, datetime
@@ -71,15 +73,22 @@ def validar(itens: list, hoje: date = None):
 
 
 def main():
-    entrada = Path(sys.argv[1]) if len(sys.argv) > 1 else ENTRADA_PADRAO
+    parser = argparse.ArgumentParser(description="Valida entregas e separa os pendentes.")
+    parser.add_argument("entrada", nargs="?", default=str(ENTRADA_PADRAO),
+                        help="JSON de entregas (padrão: data/raw/entregas_raw.json)")
+    parser.add_argument("--saida", default=str(SAIDA),
+                        help="onde gravar o resultado (padrão: data/processed/entregas.json)")
+    args = parser.parse_args()
+
+    entrada, saida = Path(args.entrada), Path(args.saida)
     if not entrada.exists():
         sys.exit(f"Arquivo não encontrado: {entrada}")
 
     itens = carregar(entrada)
     ok, pendentes = validar(itens)
 
-    SAIDA.parent.mkdir(parents=True, exist_ok=True)
-    SAIDA.write_text(
+    saida.parent.mkdir(parents=True, exist_ok=True)
+    saida.write_text(
         json.dumps({"entregas": ok, "pendentes": pendentes}, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
@@ -88,7 +97,7 @@ def main():
     print(f"{len(ok)} com data ({len(futuras)} futuras), {len(pendentes)} pendentes")
     for p in pendentes:
         print(f"  pendente: {p.get('disciplina', '?')} - {p.get('descricao', '?')} ({p['motivo']})")
-    print(f"Salvo em {SAIDA}")
+    print(f"Salvo em {saida}")
 
 
 if __name__ == "__main__":

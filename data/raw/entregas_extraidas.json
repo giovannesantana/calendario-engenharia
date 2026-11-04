@@ -1,0 +1,62 @@
+[
+  {
+    "disciplina": "Desenvolvimento Sustentável na Engenharia",
+    "metodo": "prova",
+    "descricao": "P1",
+    "data": "2026-09-18",
+    "observacao": null,
+    "confianca": "alta",
+    "trecho_origem": "7 18/09/2026 P1",
+    "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf"
+  },
+  {
+    "disciplina": "Desenvolvimento Sustentável na Engenharia",
+    "metodo": "projeto",
+    "descricao": "Entrega 01 do Projeto",
+    "data": "2026-10-09",
+    "observacao": null,
+    "confianca": "alta",
+    "trecho_origem": "10 09/10/2026 Entrega 01 do Projeto- ESG. ODS e aplicações em projetos de engenharia",
+    "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf"
+  },
+  {
+    "disciplina": "Desenvolvimento Sustentável na Engenharia",
+    "metodo": "projeto",
+    "descricao": "Entrega 2 do Projeto",
+    "data": "2026-10-30",
+    "observacao": null,
+    "confianca": "alta",
+    "trecho_origem": "13 30/10/2026 Entrega 2 Projeto, Soluções sustentáveis: matriz energética, energias renováveis, eficiência energética",
+    "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf"
+  },
+  {
+    "disciplina": "Desenvolvimento Sustentável na Engenharia",
+    "metodo": "prova",
+    "descricao": "P2",
+    "data": "2026-11-13",
+    "observacao": null,
+    "confianca": "alta",
+    "trecho_origem": "15 13/11/2026 P2",
+    "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf"
+  },
+  {
+    "disciplina": "Desenvolvimento Sustentável na Engenharia",
+    "metodo": "projeto",
+    "descricao": "Entrega 03 do Projeto",
+    "data": "2026-11-27",
+    "observacao": null,
+    "confianca": "alta",
+    "trecho_origem": "17 27/11/2026 Vista de provas, correção esclarecimento de dúvidas e Entrega 03 do Projeto",
+    "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf"
+  },
+  {
+    "disciplina": "Desenvolvimento Sustentável na Engenharia",
+    "metodo": "prova",
+    "descricao": "Prova substitutiva",
+    "data": "2026-12-11",
+    "observacao": null,
+    "confianca": "alta",
+    "trecho_origem": "- 11/12/2026 Prova substitutiva",
+    "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf"
+  }
+]

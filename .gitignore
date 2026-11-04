@@ -6,3 +6,5 @@ token.json
 __pycache__/
 data/inbox/*
 !data/inbox/.gitkeep
+data/cache/*
+!data/cache/.gitkeep    
