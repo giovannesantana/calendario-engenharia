@@ -1,0 +1,8 @@
+.venv/
+.vscode/
+.env
+credentials.json
+token.json
+__pycache__/
+data/inbox/*
+!data/inbox/.gitkeep

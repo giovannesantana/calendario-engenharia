@@ -1,0 +1,46 @@
+[
+{"disciplina": "Práticas Interdisciplinares de Inovação (PI)", "metodo": "projeto", "descricao": "Entregas Mensais - subentrega final (produto final, documentação, publicação e apresentação)", "data": "04/12/26"},
+
+{"disciplina": "Desenvolvimento Sustentável na Engenharia", "metodo": "prova", "descricao": "P1", "data": "18/09/26"},
+{"disciplina": "Desenvolvimento Sustentável na Engenharia", "metodo": "projeto", "descricao": "Entrega 01 do Projeto - ESG, ODS e aplicações em projetos de engenharia", "data": "09/10/26"},
+{"disciplina": "Desenvolvimento Sustentável na Engenharia", "metodo": "projeto", "descricao": "Entrega 02 do Projeto - Soluções sustentáveis: matriz energética, energias renováveis, eficiência energética", "data": "30/10/26"},
+{"disciplina": "Desenvolvimento Sustentável na Engenharia", "metodo": "prova", "descricao": "P2", "data": "13/11/26"},
+{"disciplina": "Desenvolvimento Sustentável na Engenharia", "metodo": "projeto", "descricao": "Entrega 03 do Projeto", "data": "27/11/26"},
+{"disciplina": "Desenvolvimento Sustentável na Engenharia", "metodo": "prova", "descricao": "Prova substitutiva", "data": "11/12/26"},
+
+{"disciplina": "Redes de Computadores e Industriais", "metodo": "trabalho", "descricao": "Trabalhos de pesquisa e de projeto (individuais e em grupo) sobre implantação de redes industriais", "data": null},
+
+{"disciplina": "Processamento e Transmissão Digital de Sinais", "metodo": "prova", "descricao": "1ª avaliação (AV1)", "data": "21/09/26"},
+{"disciplina": "Processamento e Transmissão Digital de Sinais", "metodo": "prova", "descricao": "2ª avaliação (AV2) - 23/11 ou 30/11", "data": null},
+{"disciplina": "Processamento e Transmissão Digital de Sinais", "metodo": "prova", "descricao": "Avaliação de Recuperação", "data": "14/12/26"},
+{"disciplina": "Processamento e Transmissão Digital de Sinais", "metodo": "trabalho", "descricao": "Três atividades práticas de laboratório com relatórios", "data": null},
+{"disciplina": "Processamento e Transmissão Digital de Sinais", "metodo": "projeto", "descricao": "Projeto dividido em duas fases (Sistema de Aquisição de Dados com transmissão sem fios)", "data": null},
+
+{"disciplina": "Laboratório de Circuitos Elétricos e Eletrônica", "metodo": "trabalho", "descricao": "Trabalho 1 - RC e RL de 1ª ordem", "data": "15/09/26"},
+{"disciplina": "Laboratório de Circuitos Elétricos e Eletrônica", "metodo": "trabalho", "descricao": "Trabalho 2 - RLC de 2ª ordem", "data": "29/09/26"},
+{"disciplina": "Laboratório de Circuitos Elétricos e Eletrônica", "metodo": "projeto", "descricao": "Projeto 1 - Montagem e Apresentação do Amplificador", "data": "27/10/26"},
+{"disciplina": "Laboratório de Circuitos Elétricos e Eletrônica", "metodo": "trabalho", "descricao": "Exercícios - Amplificador (individual em aula)", "data": "03/11/26"},
+{"disciplina": "Laboratório de Circuitos Elétricos e Eletrônica", "metodo": "projeto", "descricao": "Projeto 2 - Circuito sequencial - Montagem e Apresentação", "data": "17/11/26"},
+{"disciplina": "Laboratório de Circuitos Elétricos e Eletrônica", "metodo": "projeto", "descricao": "Recuperação do Projeto (individual)", "data": "24/11/26"},
+
+{"disciplina": "Estatística e Análise de Dados", "metodo": "prova", "descricao": "AD1 - Projeto 1", "data": "26/08/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "sprint", "descricao": "Sprint 1 - Projeto 1 (E1)", "data": "30/08/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "prova", "descricao": "AE1 - Projeto 1", "data": "02/09/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "prova", "descricao": "AD2 - Projeto 1", "data": "16/09/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "sprint", "descricao": "Sprint 2 - Projeto 1 (E2)", "data": "20/09/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "prova", "descricao": "AE2 - Projeto 1", "data": "30/09/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "prova", "descricao": "AD3 (indicada como Projeto 2 no cronograma)", "data": "07/10/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "sprint", "descricao": "Sprint 3 - Projeto 1 (E3)", "data": "11/10/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "prova", "descricao": "AE1 - Projeto 2", "data": "28/10/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "prova", "descricao": "AD1 - Projeto 2", "data": "11/11/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "sprint", "descricao": "Sprint 1 - Projeto 2", "data": "15/11/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "prova", "descricao": "AE2 - Projeto 2", "data": "18/11/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "sprint", "descricao": "Sprint 2 - Projeto 2", "data": "06/12/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "prova", "descricao": "AD2 - Projeto 2", "data": "09/12/26"},
+{"disciplina": "Estatística e Análise de Dados", "metodo": "prova", "descricao": "AD SUB - Projeto 2 (substitutiva)", "data": "16/12/26"},
+
+{"disciplina": "Componentes e Circuitos Eletrônicos", "metodo": "prova", "descricao": "P1", "data": "29/09/26"},
+{"disciplina": "Componentes e Circuitos Eletrônicos", "metodo": "prova", "descricao": "P2", "data": "17/11/26"},
+{"disciplina": "Componentes e Circuitos Eletrônicos", "metodo": "prova", "descricao": "P3 (recuperação)", "data": "01/12/26"},
+{"disciplina": "Componentes e Circuitos Eletrônicos", "metodo": "trabalho", "descricao": "Seminários (S1, S2) e Trabalhos (T1 a T4)", "data": null}
+]
