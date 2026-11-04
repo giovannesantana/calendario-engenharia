@@ -1,0 +1,9 @@
+[
+  {"disciplina": "Introdução à Robótica Industrial", "metodo": "prova", "descricao": "Primeira avaliação (P1)", "data": "14/09/26"},
+  {"disciplina": "Introdução à Robótica Industrial", "metodo": "prova", "descricao": "Segunda avaliação (P2)", "data": null},
+  {"disciplina": "Introdução à Robótica Industrial", "metodo": "prova", "descricao": "Avaliação substitutiva (29/11 ou 06/12)", "data": null},
+  {"disciplina": "Introdução à Robótica Industrial", "metodo": "trabalho", "descricao": "Laboratório 1 - Cinemática direta", "data": "21/09/26"},
+  {"disciplina": "Introdução à Robótica Industrial", "metodo": "trabalho", "descricao": "Trabalho em grupo", "data": null},
+  {"disciplina": "Introdução à Robótica Industrial", "metodo": "trabalho", "descricao": "Seminários", "data": null},
+  {"disciplina": "Introdução à Robótica Industrial", "metodo": "projeto", "descricao": "Projeto final", "data": "07/12/26"}
+]

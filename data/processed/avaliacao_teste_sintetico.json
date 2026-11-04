@@ -1,0 +1,26 @@
+{
+  "rotulo": "teste-sintetico",
+  "metricas": {
+    "contagens": {
+      "ok": 3,
+      "pendente_ok": 4
+    },
+    "gabarito_com_data": 3,
+    "gabarito_sem_data": 4,
+    "extraidas_com_data": 3,
+    "datas_corretas": 3,
+    "recall_data_pct": 100.0,
+    "precisao_data_pct": 100.0,
+    "datas_erradas": 0,
+    "datas_inventadas": 0,
+    "entregas_faltando": 0,
+    "entregas_extras": 0,
+    "tipo_diferente": 0,
+    "pendentes_tratados_corretamente": 4,
+    "erros_de_data_total": 0,
+    "erros_sinalizados_baixa_confianca": 0,
+    "erros_com_confianca_alta_ou_media": 0,
+    "itens_baixa_confianca": 4
+  },
+  "divergencias": []
+}
