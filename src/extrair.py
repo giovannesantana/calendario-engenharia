@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 RAIZ = Path(__file__).resolve().parent.parent
 load_dotenv(RAIZ / ".env")
 
-ARQ_PROMPT = RAIZ / "prompts" / "extracao_v2.txt"
+ARQ_PROMPT = RAIZ / "prompts" / "extracao_v3.txt"  # padrão; troque com --prompt
 INBOX = RAIZ / "data" / "inbox"
 SAIDA_PADRAO = RAIZ / "data" / "raw" / "entregas_extraidas.json"
 CACHE = RAIZ / "data" / "cache"  # respostas já obtidas: evita gastar a cota da API à toa
@@ -229,21 +229,26 @@ def main():
     parser.add_argument("entradas", nargs="*", default=[str(INBOX)],
                         help="arquivos ou pastas (padrão: data/inbox)")
     parser.add_argument("--saida", default=str(SAIDA_PADRAO), help="arquivo JSON de saída")
+    parser.add_argument("--prompt", default=str(ARQ_PROMPT),
+                        help="arquivo de prompt (padrão: prompts/extracao_v3.txt)")
+    parser.add_argument("--ano", default=str(date.today().year),
+                        help="ano letivo, usado quando o documento traz datas sem ano (ex.: 21/set)")
     parser.add_argument("--refazer", action="store_true",
                         help="ignora o cache e chama a API de novo para todos os arquivos")
     args = parser.parse_args()
 
     if not os.getenv("GEMINI_API_KEY"):
         sys.exit("GEMINI_API_KEY não encontrada. Crie o arquivo .env (veja .env.example).")
-    if not ARQ_PROMPT.exists():
-        sys.exit(f"Prompt não encontrado: {ARQ_PROMPT}")
+    arq_prompt = Path(args.prompt)
+    if not arq_prompt.exists():
+        sys.exit(f"Prompt não encontrado: {arq_prompt}")
 
     arquivos = coletar_arquivos(args.entradas)
     if not arquivos:
         sys.exit("Nenhum PDF/PNG/JPG para processar. Coloque os planos em data/inbox/.")
 
-    prompt = ARQ_PROMPT.read_text(encoding="utf-8")
-    print(f"Modelo: {MODELO} | {len(arquivos)} arquivo(s)\n")
+    prompt = arq_prompt.read_text(encoding="utf-8").replace("{{ANO}}", str(args.ano))
+    print(f"Modelo: {MODELO} | prompt: {arq_prompt.name} | ano letivo: {args.ano} | {len(arquivos)} arquivo(s)\n")
 
     todos, vistos, descartados, falhas = [], set(), 0, []
     cota_esgotada = False

@@ -1,0 +1,72 @@
+[
+  {
+    "disciplina": "Introdução à Robótica Industrial",
+    "metodo": "prova",
+    "descricao": "Primeira avaliação (P1)",
+    "data": "2026-09-14",
+    "observacao": null,
+    "confianca": "alta",
+    "trecho_origem": "- Primeira avaliação (P1): 14/09/2026, valor 3,0 pontos.",
+    "arquivo_origem": "plano_teste_robotica.pdf"
+  },
+  {
+    "disciplina": "Introdução à Robótica Industrial",
+    "metodo": "prova",
+    "descricao": "Segunda avaliação (P2)",
+    "data": null,
+    "observacao": "Data a ser definida pelo professor",
+    "confianca": "baixa",
+    "trecho_origem": "- Segunda avaliação (P2): data a ser definida pelo professor, valor 3,0 pontos.",
+    "arquivo_origem": "plano_teste_robotica.pdf"
+  },
+  {
+    "disciplina": "Introdução à Robótica Industrial",
+    "metodo": "prova",
+    "descricao": "Avaliação substitutiva",
+    "data": null,
+    "observacao": "Datas possíveis: 29/11 ou 06/12",
+    "confianca": "baixa",
+    "trecho_origem": "- Avaliação substitutiva: 29/11 ou 06/12, conforme o calendário acadêmico.",
+    "arquivo_origem": "plano_teste_robotica.pdf"
+  },
+  {
+    "disciplina": "Introdução à Robótica Industrial",
+    "metodo": "trabalho",
+    "descricao": "Laboratório 1 - Cinemática direta",
+    "data": "2026-09-21",
+    "observacao": null,
+    "confianca": "alta",
+    "trecho_origem": "- Laboratório 1 - Cinemática direta: relatório a ser entregue em 21 de setembro de 2026.",
+    "arquivo_origem": "plano_teste_robotica.pdf"
+  },
+  {
+    "disciplina": "Introdução à Robótica Industrial",
+    "metodo": "trabalho",
+    "descricao": "Trabalho em grupo",
+    "data": null,
+    "observacao": "Entrega na última semana de aula",
+    "confianca": "baixa",
+    "trecho_origem": "- Trabalho em grupo: entrega na última semana de aula.",
+    "arquivo_origem": "plano_teste_robotica.pdf"
+  },
+  {
+    "disciplina": "Introdução à Robótica Industrial",
+    "metodo": "outro",
+    "descricao": "Seminários",
+    "data": null,
+    "observacao": "Datas a combinar com a turma",
+    "confianca": "baixa",
+    "trecho_origem": "- Seminários: datas a combinar com a turma.",
+    "arquivo_origem": "plano_teste_robotica.pdf"
+  },
+  {
+    "disciplina": "Introdução à Robótica Industrial",
+    "metodo": "projeto",
+    "descricao": "Projeto final",
+    "data": "2026-12-07",
+    "observacao": null,
+    "confianca": "alta",
+    "trecho_origem": "- Projeto final: apresentação e entrega do relatório em 07/12/26.",
+    "arquivo_origem": "plano_teste_robotica.pdf"
+  }
+]

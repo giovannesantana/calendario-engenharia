@@ -1,0 +1,27 @@
+{
+  "rotulo": "ds-v3",
+  "metricas": {
+    "contagens": {
+      "ok": 6
+    },
+    "gabarito_com_data": 6,
+    "gabarito_sem_data": 0,
+    "extraidas_com_data": 6,
+    "datas_corretas": 6,
+    "recall_data_pct": 100.0,
+    "precisao_data_pct": 100.0,
+    "datas_erradas": 0,
+    "datas_inventadas": 0,
+    "entregas_faltando": 0,
+    "datas_nao_extraidas": 0,
+    "nao_extraidas_sinalizadas_baixa": 0,
+    "entregas_extras": 0,
+    "tipo_diferente": 0,
+    "pendentes_tratados_corretamente": 0,
+    "erros_de_data_total": 0,
+    "erros_sinalizados_baixa_confianca": 0,
+    "erros_com_confianca_alta_ou_media": 0,
+    "itens_baixa_confianca": 0
+  },
+  "divergencias": []
+}
