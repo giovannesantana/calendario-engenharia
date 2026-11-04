@@ -2,24 +2,63 @@
   "rotulo": "flash36-v2",
   "metricas": {
     "contagens": {
-      "ok": 6
+      "ok": 6,
+      "data_nao_extraida": 2,
+      "pendente_ok": 3
     },
-    "gabarito_com_data": 6,
-    "gabarito_sem_data": 0,
+    "gabarito_com_data": 8,
+    "gabarito_sem_data": 3,
     "extraidas_com_data": 6,
     "datas_corretas": 6,
-    "recall_data_pct": 100.0,
+    "recall_data_pct": 75.0,
     "precisao_data_pct": 100.0,
     "datas_erradas": 0,
     "datas_inventadas": 0,
     "entregas_faltando": 0,
+    "datas_nao_extraidas": 2,
+    "nao_extraidas_sinalizadas_baixa": 2,
     "entregas_extras": 0,
     "tipo_diferente": 0,
-    "pendentes_tratados_corretamente": 0,
+    "pendentes_tratados_corretamente": 3,
     "erros_de_data_total": 0,
     "erros_sinalizados_baixa_confianca": 0,
     "erros_com_confianca_alta_ou_media": 0,
-    "itens_baixa_confianca": 0
+    "itens_baixa_confianca": 5
   },
-  "divergencias": []
+  "divergencias": [
+    {
+      "status": "data_nao_extraida",
+      "gabarito": {
+        "disciplina": "Processamento e Transmissão Digital de Sinais",
+        "metodo": "prova",
+        "descricao": "1ª avaliação (AV1)",
+        "data": "2026-09-21",
+        "confianca": "?"
+      },
+      "ia": {
+        "disciplina": "Processamento e Transmissão Digital de Sinais",
+        "metodo": "prova",
+        "descricao": "1ª avaliação (AV1)",
+        "data": null,
+        "confianca": "baixa"
+      }
+    },
+    {
+      "status": "data_nao_extraida",
+      "gabarito": {
+        "disciplina": "Processamento e Transmissão Digital de Sinais",
+        "metodo": "prova",
+        "descricao": "Avaliação de Recuperação",
+        "data": "2026-12-14",
+        "confianca": "?"
+      },
+      "ia": {
+        "disciplina": "Processamento e Transmissão Digital de Sinais",
+        "metodo": "prova",
+        "descricao": "Avaliação de Recuperação",
+        "data": null,
+        "confianca": "baixa"
+      }
+    }
+  ]
 }

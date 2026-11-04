@@ -73,9 +73,13 @@ Status
  Comando único que roda o fluxo inteiro
  Agente com chamada de ferramentas para resolver pendentes e conflitos
  Testes automatizados do validar.py
-Avaliação
 
-Em andamento. Os resultados da comparação entre a extração automática e o gabarito (acertos, datas inventadas, itens sinalizados como baixa confiança) entram aqui quando o avaliar.py estiver pronto.
+Avaliação (gemini-3.6-flash, prompt v2), 2 planos reais:
+- Desenvolvimento Sustentável: 6 de 6 datas corretas.
+- PDS: 3 de 3 entregas sem data tratadas como null; 2 datas não extraídas,
+  ambas sinalizadas com confiança baixa.
+- Total: cobertura 75%, precisão 100%, 0 datas erradas ou inventadas.
+Teste sintético (datas ambíguas): 3 de 3 datas, 4 de 4 pendentes, 0 extras.
 
 Limitações conhecidas
 A extração depende da qualidade do documento (PDFs escaneados ruins reduzem a precisão).

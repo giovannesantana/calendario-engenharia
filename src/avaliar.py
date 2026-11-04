@@ -118,6 +118,18 @@ def casar(G: list, E: list) -> list:
         g_livres.remove(g)
         e_livres.remove(e)
 
+    # 2b) o gabarito tem data, mas a IA devolveu o mesmo item SEM data (deixou null)
+    pares_nulos = sorted(
+        ((semelhanca_desc(g["descricao"], e["descricao"]), g, e)
+         for g in g_livres if g["data"] for e in e_livres if not e["data"]),
+        key=lambda t: t[0], reverse=True)
+    for nota, g, e in pares_nulos:
+        if nota < 0.5 or g not in g_livres or e not in e_livres:
+            continue
+        linhas.append({"status": "data_nao_extraida", "g": g, "e": e})
+        g_livres.remove(g)
+        e_livres.remove(e)
+
     # 3) entregas SEM data no gabarito: a IA deveria deixar null
     for g in [x for x in g_livres if not x["data"]]:
         if not e_livres:
@@ -159,7 +171,7 @@ def calcular(linhas: list) -> dict:
     c = lambda k: cont.get(k, 0)
 
     acertos = c("ok") + c("metodo_diferente")
-    gab_datadas = acertos + c("data_errada") + c("faltou")
+    gab_datadas = acertos + c("data_errada") + c("faltou") + c("data_nao_extraida")
     ext_datadas = acertos + c("data_errada") + c("extra") + c("inventada")
     gab_pendentes = c("pendente_ok") + c("inventada") + c("faltou_pendente")
 
@@ -178,6 +190,9 @@ def calcular(linhas: list) -> dict:
         "datas_erradas": c("data_errada"),
         "datas_inventadas": c("inventada"),
         "entregas_faltando": c("faltou"),
+        "datas_nao_extraidas": c("data_nao_extraida"),
+        "nao_extraidas_sinalizadas_baixa": sum(
+            1 for l in linhas if l["status"] == "data_nao_extraida" and l["e"]["confianca"] == "baixa"),
         "entregas_extras": c("extra"),
         "tipo_diferente": c("metodo_diferente"),
         "pendentes_tratados_corretamente": c("pendente_ok"),
@@ -245,6 +260,8 @@ def main():
     print(f"Datas corretas: {m['datas_corretas']} (cobertura {mostrar(m['recall_data_pct'])} | precisão {mostrar(m['precisao_data_pct'])})")
     print(f"Datas erradas: {m['datas_erradas']} | inventadas: {m['datas_inventadas']} | "
           f"faltando: {m['entregas_faltando']} | extras: {m['entregas_extras']} | tipo diferente: {m['tipo_diferente']}")
+    print(f"Datas não extraídas (IA deixou sem data): {m['datas_nao_extraidas']} "
+          f"({m['nao_extraidas_sinalizadas_baixa']} com confiança baixa)")
     print(f"Pendentes (sem data no gabarito) tratados corretamente: "
           f"{m['pendentes_tratados_corretamente']} de {m['gabarito_sem_data']}")
     print(f"Erros de data: {m['erros_de_data_total']} | sinalizados com confiança baixa: "

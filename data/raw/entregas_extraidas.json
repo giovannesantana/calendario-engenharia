@@ -1,5 +1,55 @@
 [
   {
+    "disciplina": "Processamento e Transmissão Digital de Sinais",
+    "metodo": "prova",
+    "descricao": "1ª avaliação (AV1)",
+    "data": null,
+    "observacao": "Data informada: 21/set (ano não especificado)",
+    "confianca": "baixa",
+    "trecho_origem": "1ª avaliação: 21/set",
+    "arquivo_origem": "00A_Organização do Curso.pdf"
+  },
+  {
+    "disciplina": "Processamento e Transmissão Digital de Sinais",
+    "metodo": "prova",
+    "descricao": "2ª avaliação (AV2)",
+    "data": null,
+    "observacao": "Data com duas opções: 23/11 ou 30/11",
+    "confianca": "baixa",
+    "trecho_origem": "2ª avaliação: 23 ou 30/nov",
+    "arquivo_origem": "00A_Organização do Curso.pdf"
+  },
+  {
+    "disciplina": "Processamento e Transmissão Digital de Sinais",
+    "metodo": "prova",
+    "descricao": "Avaliação de Recuperação",
+    "data": null,
+    "observacao": "Data informada: 14/dez (ano não especificado)",
+    "confianca": "baixa",
+    "trecho_origem": "Recuperação: 14/dez",
+    "arquivo_origem": "00A_Organização do Curso.pdf"
+  },
+  {
+    "disciplina": "Processamento e Transmissão Digital de Sinais",
+    "metodo": "trabalho",
+    "descricao": "Relatórios de atividades práticas em laboratório",
+    "data": null,
+    "observacao": "Três atividades práticas realizadas em LAB com relatórios",
+    "confianca": "baixa",
+    "trecho_origem": "três atividades práticas realizadas em LAB com relatórios",
+    "arquivo_origem": "00A_Organização do Curso.pdf"
+  },
+  {
+    "disciplina": "Processamento e Transmissão Digital de Sinais",
+    "metodo": "projeto",
+    "descricao": "Projeto de aplicação da teoria",
+    "data": null,
+    "observacao": "Projeto dividido em duas fases utilizando PBL",
+    "confianca": "baixa",
+    "trecho_origem": "um Projeto dividido em duas fases",
+    "arquivo_origem": "00A_Organização do Curso.pdf"
+  },
+  {
     "disciplina": "Desenvolvimento Sustentável na Engenharia",
     "metodo": "prova",
     "descricao": "P1",
