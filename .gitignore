@@ -7,4 +7,5 @@ __pycache__/
 data/inbox/*
 !data/inbox/.gitkeep
 data/cache/*
-!data/cache/.gitkeep    
+!data/cache/.gitkeep
+data/processed/agente_*

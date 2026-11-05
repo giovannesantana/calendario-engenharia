@@ -12,6 +12,7 @@ import sys
 from datetime import date, timedelta
 from pathlib import Path
 
+from google.auth.exceptions import RefreshError
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -33,16 +34,24 @@ def autenticar():
     creds = None
     if TOKEN.exists():
         creds = Credentials.from_authorized_user_file(str(TOKEN), SCOPES)
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
+
+    if creds and not creds.valid and creds.expired and creds.refresh_token:
+        try:
             creds.refresh(Request())
-        else:
-            if not CREDENCIAIS.exists():
-                sys.exit(f"Arquivo não encontrado: {CREDENCIAIS}\n"
-                         "Baixe o credentials.json no Google Cloud e coloque na raiz do projeto.")
-            flow = InstalledAppFlow.from_client_secrets_file(str(CREDENCIAIS), SCOPES)
-            creds = flow.run_local_server(port=0)
-        TOKEN.write_text(creds.to_json())
+        except RefreshError as erro:
+            # token expirado (modo de teste do Google vence em ~7 dias) ou gerado com outro segredo
+            print(f"Autorização anterior inválida ou expirada ({erro}).")
+            print("Abrindo o navegador para autorizar de novo...")
+            creds = None
+
+    if not creds or not creds.valid:
+        if not CREDENCIAIS.exists():
+            sys.exit(f"Arquivo não encontrado: {CREDENCIAIS}\n"
+                     "Baixe o credentials.json no Google Cloud e coloque na raiz do projeto.")
+        flow = InstalledAppFlow.from_client_secrets_file(str(CREDENCIAIS), SCOPES)
+        creds = flow.run_local_server(port=0)
+
+    TOKEN.write_text(creds.to_json())
     return build("calendar", "v3", credentials=creds)
 
 
@@ -88,18 +97,13 @@ def montar_evento(item: dict) -> dict:
     }
 
 
-def sincronizar():
-    if not ENTREGAS.exists():
-        sys.exit(f"Não encontrei {ENTREGAS}. Rode antes: python src/validar.py")
-
-    dados = json.loads(ENTREGAS.read_text(encoding="utf-8"))
-    futuras = [e for e in dados["entregas"] if not e["passou"]]
-
+def enviar(itens: list) -> dict:
+    """Cria ou atualiza no Google Agenda a lista de entregas já validadas (com data ISO)."""
     service = autenticar()
     agenda = obter_agenda(service)
     criados = atualizados = 0
 
-    for item in futuras:
+    for item in itens:
         evento = montar_evento(item)
         try:
             service.events().insert(calendarId=agenda, body=evento).execute()
@@ -112,8 +116,18 @@ def sincronizar():
                 atualizados += 1
             else:
                 raise
+    return {"criados": criados, "atualizados": atualizados}
 
-    print(f"{criados} criados, {atualizados} atualizados")
+
+def sincronizar():
+    if not ENTREGAS.exists():
+        sys.exit(f"Não encontrei {ENTREGAS}. Rode antes: python src/validar.py")
+
+    dados = json.loads(ENTREGAS.read_text(encoding="utf-8"))
+    futuras = [e for e in dados["entregas"] if not e["passou"]]
+
+    resultado = enviar(futuras)
+    print(f"{resultado['criados']} criados, {resultado['atualizados']} atualizados")
     print(f"{len(dados['pendentes'])} pendentes ficaram de fora (sem data)")
 
 
