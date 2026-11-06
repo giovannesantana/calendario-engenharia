@@ -1,6 +1,61 @@
 {
   "entregas": [
     {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "prova",
+      "descricao": "AD1 - Projeto 1",
+      "data": "2026-08-26",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "(AD1 – Projeto 1) 26/08",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "sprint",
+      "descricao": "Sprint 1 - Projeto 1",
+      "data": "2026-08-30",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "30/08",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "prova",
+      "descricao": "AE1 - Projeto 1",
+      "data": "2026-09-02",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "02/09 (AE1 – Projeto 1)",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "Lab. de Circ. Elétricos e Eletrônica",
+      "metodo": "trabalho",
+      "descricao": "Trabalho 1 – RC e RL 1ª ordem",
+      "data": "2026-09-15",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "7 15/set Trabalho 1",
+      "arquivo_origem": "PE - Lab. Circuitos elétricos e Eletrônica.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "prova",
+      "descricao": "AD2 - Projeto 1",
+      "data": "2026-09-16",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "16/09 (AD 2 – Projeto 1)",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
+      "passou": true
+    },
+    {
       "disciplina": "Desenvolvimento Sustentável na Engenharia",
       "metodo": "prova",
       "descricao": "P1",
@@ -8,7 +63,84 @@
       "observacao": null,
       "confianca": "alta",
       "trecho_origem": "7 18/09/2026 P1",
-      "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf",
+      "arquivo_origem": "PE - Desenvolvimento Sustentável na Engenharia.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "sprint",
+      "descricao": "Sprint 2 - Projeto 1",
+      "data": "2026-09-20",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "20/09",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "Processamento e Transmissão Digital de Sinais",
+      "metodo": "prova",
+      "descricao": "1ª avaliação",
+      "data": "2026-09-21",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "1ª avaliação: 21/set",
+      "arquivo_origem": "PE - Processamento e Transmissão Digital de Sinais.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "COMPONENTES E CIRCUITOS ELETRÔNICOS",
+      "metodo": "prova",
+      "descricao": "P1",
+      "data": "2026-09-29",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "P1 – 29/09",
+      "arquivo_origem": "PE - Componentes e Cirtuitos Eletrônicos.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "Lab. de Circ. Elétricos e Eletrônica",
+      "metodo": "trabalho",
+      "descricao": "Trabalho 2 – RLC 2ª ordem",
+      "data": "2026-09-29",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "9 29/set Trabalho 2",
+      "arquivo_origem": "PE - Lab. Circuitos elétricos e Eletrônica.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "prova",
+      "descricao": "AE2 - Projeto 1",
+      "data": "2026-09-30",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "30/09 (AE2 – Projeto 1)",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "prova",
+      "descricao": "AD3 - Projeto 1",
+      "data": "2026-10-07",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "07/10 (AD3 – Projeto 2)",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "13716-REDES DE COMPUTADORES E INDUSTRIAIS",
+      "metodo": "trabalho",
+      "descricao": "Início das apresentações dos trabalhos sobre protocolos de automação industrial",
+      "data": "2026-10-08",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "10 08/out 5ª Feira 19h20 22h35 Início das apresentações dos trabalhos sobre protocolos de automação industrial.",
+      "arquivo_origem": "PE - Redes de Computadores e Industriais.pdf",
       "passou": true
     },
     {
@@ -19,7 +151,51 @@
       "observacao": null,
       "confianca": "alta",
       "trecho_origem": "10 09/10/2026 Entrega 01 do Projeto- ESG. ODS e aplicações em projetos de engenharia",
-      "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf",
+      "arquivo_origem": "PE - Desenvolvimento Sustentável na Engenharia.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "sprint",
+      "descricao": "Sprint 3 - Projeto 1",
+      "data": "2026-10-11",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "11/10",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "13716-REDES DE COMPUTADORES E INDUSTRIAIS",
+      "metodo": "trabalho",
+      "descricao": "Apresentações dos trabalhos sobre protocolos de automação industrial",
+      "data": "2026-10-15",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "11 15/out 5ª Feira 19h20 22h35 apresentações dos trabalhos sobre protocolos de automação industrial.",
+      "arquivo_origem": "PE - Redes de Computadores e Industriais.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "Lab. de Circ. Elétricos e Eletrônica",
+      "metodo": "projeto",
+      "descricao": "Projeto 1 – Montagem e Apresentação do Amplificador",
+      "data": "2026-10-27",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "13 27/out 9 Amplificador (demonstração). Projeto 1 – Montagem e Apresentação",
+      "arquivo_origem": "PE - Lab. Circuitos elétricos e Eletrônica.pdf",
+      "passou": true
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "prova",
+      "descricao": "AE1 - Projeto 2",
+      "data": "2026-10-28",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "AE1/P2 (28/10)",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
       "passou": true
     },
     {
@@ -30,8 +206,19 @@
       "observacao": null,
       "confianca": "alta",
       "trecho_origem": "13 30/10/2026 Entrega 2 Projeto, Soluções sustentáveis: matriz energética, energias renováveis, eficiência energética",
-      "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf",
+      "arquivo_origem": "PE - Desenvolvimento Sustentável na Engenharia.pdf",
       "passou": true
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "prova",
+      "descricao": "AD1 - Projeto 2",
+      "data": "2026-11-11",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "AD1/P2 (11/11)",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
+      "passou": false
     },
     {
       "disciplina": "Desenvolvimento Sustentável na Engenharia",
@@ -41,7 +228,84 @@
       "observacao": null,
       "confianca": "alta",
       "trecho_origem": "15 13/11/2026 P2",
-      "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf",
+      "arquivo_origem": "PE - Desenvolvimento Sustentável na Engenharia.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "sprint",
+      "descricao": "Sprint 1 - Projeto 2",
+      "data": "2026-11-15",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "SPRINT 1: 15/11",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "COMPONENTES E CIRCUITOS ELETRÔNICOS",
+      "metodo": "prova",
+      "descricao": "P2",
+      "data": "2026-11-17",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "P2 – 17/11",
+      "arquivo_origem": "PE - Componentes e Cirtuitos Eletrônicos.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "Lab. de Circ. Elétricos e Eletrônica",
+      "metodo": "projeto",
+      "descricao": "Projeto 2 – Montagem e Apresentação do Circuito Sequencial",
+      "data": "2026-11-17",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "16 17/nov 11 Circuito sequencial – Projeto 2 – Montagem e Apresentação",
+      "arquivo_origem": "PE - Lab. Circuitos elétricos e Eletrônica.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "prova",
+      "descricao": "AE2 - Projeto 2",
+      "data": "2026-11-18",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "AE2/P2 (18/11)",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "13716-REDES DE COMPUTADORES E INDUSTRIAIS",
+      "metodo": "projeto",
+      "descricao": "Entrega e Apresentação dos projetos (1º dia)",
+      "data": "2026-11-19",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "16 19/nov 5ª Feira 19h20 22h35 • Entrega dos projetos (escrito e arquivo .pkt do CISCO Packet Tracer)\n• Apresentação dos projetos pelos grupos",
+      "arquivo_origem": "PE - Redes de Computadores e Industriais.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "Lab. de Circ. Elétricos e Eletrônica",
+      "metodo": "prova",
+      "descricao": "Recuperação do Projeto",
+      "data": "2026-11-24",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "17 24/nov Recuperação do Projeto. Atividades de recuperação.",
+      "arquivo_origem": "PE - Lab. Circuitos elétricos e Eletrônica.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "13716-REDES DE COMPUTADORES E INDUSTRIAIS",
+      "metodo": "projeto",
+      "descricao": "Entrega e Apresentação dos projetos (2º dia)",
+      "data": "2026-11-26",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "16 26/nov 5ª Feira 19h20 22h35 • Entrega dos projetos (escrito e arquivo .pkt do CISCO Packet Tracer)\n• Apresentação dos projetos pelos grupos",
+      "arquivo_origem": "PE - Redes de Computadores e Industriais.pdf",
       "passou": false
     },
     {
@@ -52,7 +316,51 @@
       "observacao": null,
       "confianca": "alta",
       "trecho_origem": "17 27/11/2026 Vista de provas, correção esclarecimento de dúvidas e Entrega 03 do Projeto",
-      "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf",
+      "arquivo_origem": "PE - Desenvolvimento Sustentável na Engenharia.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "COMPONENTES E CIRCUITOS ELETRÔNICOS",
+      "metodo": "prova",
+      "descricao": "P3",
+      "data": "2026-12-01",
+      "observacao": "Prova de recuperação",
+      "confianca": "alta",
+      "trecho_origem": "P3 – 01/12",
+      "arquivo_origem": "PE - Componentes e Cirtuitos Eletrônicos.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "13716-REDES DE COMPUTADORES E INDUSTRIAIS",
+      "metodo": "prova",
+      "descricao": "Atividade de Recuperação",
+      "data": "2026-12-03",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "17 03/dez 5ª Feira 19h20 22h35 Atividade de Recuperação.",
+      "arquivo_origem": "PE - Redes de Computadores e Industriais.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "sprint",
+      "descricao": "Sprint 2 - Projeto 2",
+      "data": "2026-12-06",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "SPRINT 2: 06/12",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "prova",
+      "descricao": "AD2 - Projeto 2",
+      "data": "2026-12-09",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "AD2/P2 (50’) (09/12)",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
       "passou": false
     },
     {
@@ -63,9 +371,76 @@
       "observacao": null,
       "confianca": "alta",
       "trecho_origem": "- 11/12/2026 Prova substitutiva",
-      "arquivo_origem": "Aula 01- Plano de ensino - noturno.pdf",
+      "arquivo_origem": "PE - Desenvolvimento Sustentável na Engenharia.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "Processamento e Transmissão Digital de Sinais",
+      "metodo": "prova",
+      "descricao": "Avaliação de Recuperação",
+      "data": "2026-12-14",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "Recuperação: 14/dez",
+      "arquivo_origem": "PE - Processamento e Transmissão Digital de Sinais.pdf",
+      "passou": false
+    },
+    {
+      "disciplina": "Estatística e Análise de Dados",
+      "metodo": "prova",
+      "descricao": "AD SUB - Projeto 2",
+      "data": "2026-12-16",
+      "observacao": null,
+      "confianca": "alta",
+      "trecho_origem": "AD SUB Projeto 2 (16/12)",
+      "arquivo_origem": "PE - Estatística e Análise de Dados.pdf",
       "passou": false
     }
   ],
-  "pendentes": []
+  "pendentes": [
+    {
+      "disciplina": "COMPONENTES E CIRCUITOS ELETRÔNICOS",
+      "metodo": "trabalho",
+      "descricao": "Seminários e Trabalhos (S1, S2, T1, T2, T3, T4)",
+      "data": null,
+      "observacao": null,
+      "confianca": "baixa",
+      "trecho_origem": "Seminários (peso 2) e Trabalhos (ou exercícios): – S1x2, S2x2, T1, T2, T3 e T4 ...",
+      "arquivo_origem": "PE - Componentes e Cirtuitos Eletrônicos.pdf",
+      "motivo": "sem data"
+    },
+    {
+      "disciplina": "Processamento e Transmissão Digital de Sinais",
+      "metodo": "prova",
+      "descricao": "2ª avaliação",
+      "data": null,
+      "observacao": "Datas sugeridas: 23/11 ou 30/11",
+      "confianca": "baixa",
+      "trecho_origem": "2ª avaliação: 23 ou 30/nov",
+      "arquivo_origem": "PE - Processamento e Transmissão Digital de Sinais.pdf",
+      "motivo": "sem data"
+    },
+    {
+      "disciplina": "Processamento e Transmissão Digital de Sinais",
+      "metodo": "trabalho",
+      "descricao": "Relatórios de Atividades Práticas de Laboratório",
+      "data": null,
+      "observacao": "Média de 3 relatórios",
+      "confianca": "baixa",
+      "trecho_origem": "três atividades práticas realizadas em LAB com relatórios",
+      "arquivo_origem": "PE - Processamento e Transmissão Digital de Sinais.pdf",
+      "motivo": "sem data"
+    },
+    {
+      "disciplina": "Processamento e Transmissão Digital de Sinais",
+      "metodo": "projeto",
+      "descricao": "Projeto (PBL)",
+      "data": null,
+      "observacao": "Projeto dividido em duas fases",
+      "confianca": "baixa",
+      "trecho_origem": "um Projeto dividido em duas fases",
+      "arquivo_origem": "PE - Processamento e Transmissão Digital de Sinais.pdf",
+      "motivo": "sem data"
+    }
+  ]
 }

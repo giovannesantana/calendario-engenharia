@@ -1,12 +1,13 @@
 """extrair.py - lê planos de ensino (PDF/PNG/JPG) e gera um JSON de entregas com um LLM.
 
 Uso:
-    python src/extrair.py                         # processa tudo em data/inbox/
+    python src/extrair.py                                                   # processa tudo em data/inbox/
     python src/extrair.py plano.pdf cronograma.png
     python src/extrair.py data/inbox --saida data/raw/teste.json
 
-A saída NÃO sobrescreve o seu gabarito (entregas_raw.json): por padrão vai para
-data/raw/entregas_extraidas.json. Depois rode validar.py e avaliar.py.
+A saída NÃO sobrescreve o gabarito (entregas_raw.json): por padrão vai para
+data/raw/entregas_extraidas.json.
+Depois de rodar o extrair.py, rodar validar.py e avaliar.py.
 """
 import argparse
 import hashlib

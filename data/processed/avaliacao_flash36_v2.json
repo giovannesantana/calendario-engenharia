@@ -2,62 +2,125 @@
   "rotulo": "flash36-v2",
   "metricas": {
     "contagens": {
-      "ok": 6,
-      "data_nao_extraida": 2,
-      "pendente_ok": 3
+      "ok": 30,
+      "pendente_ok": 4,
+      "metodo_diferente": 1,
+      "faltou": 1,
+      "faltou_pendente": 1,
+      "extra": 5
     },
-    "gabarito_com_data": 8,
-    "gabarito_sem_data": 3,
-    "extraidas_com_data": 6,
-    "datas_corretas": 6,
-    "recall_data_pct": 75.0,
-    "precisao_data_pct": 100.0,
+    "gabarito_com_data": 32,
+    "gabarito_sem_data": 5,
+    "extraidas_com_data": 36,
+    "datas_corretas": 31,
+    "recall_data_pct": 96.9,
+    "precisao_data_pct": 86.1,
     "datas_erradas": 0,
     "datas_inventadas": 0,
-    "entregas_faltando": 0,
-    "datas_nao_extraidas": 2,
-    "nao_extraidas_sinalizadas_baixa": 2,
-    "entregas_extras": 0,
-    "tipo_diferente": 0,
-    "pendentes_tratados_corretamente": 3,
-    "erros_de_data_total": 0,
+    "entregas_faltando": 1,
+    "datas_nao_extraidas": 0,
+    "nao_extraidas_sinalizadas_baixa": 0,
+    "entregas_extras": 5,
+    "tipo_diferente": 1,
+    "pendentes_tratados_corretamente": 4,
+    "erros_de_data_total": 5,
     "erros_sinalizados_baixa_confianca": 0,
-    "erros_com_confianca_alta_ou_media": 0,
-    "itens_baixa_confianca": 5
+    "erros_com_confianca_alta_ou_media": 5,
+    "itens_baixa_confianca": 4
   },
   "divergencias": [
     {
-      "status": "data_nao_extraida",
+      "status": "metodo_diferente",
       "gabarito": {
-        "disciplina": "Processamento e Transmissão Digital de Sinais",
-        "metodo": "prova",
-        "descricao": "1ª avaliação (AV1)",
-        "data": "2026-09-21",
+        "disciplina": "Laboratório de Circuitos Elétricos e Eletrônica",
+        "metodo": "projeto",
+        "descricao": "Recuperação do Projeto (individual)",
+        "data": "2026-11-24",
         "confianca": "?"
       },
       "ia": {
-        "disciplina": "Processamento e Transmissão Digital de Sinais",
+        "disciplina": "Lab. de Circ. Elétricos e Eletrônica",
         "metodo": "prova",
-        "descricao": "1ª avaliação (AV1)",
-        "data": null,
-        "confianca": "baixa"
+        "descricao": "Recuperação do Projeto",
+        "data": "2026-11-24",
+        "confianca": "alta"
       }
     },
     {
-      "status": "data_nao_extraida",
+      "status": "faltou",
       "gabarito": {
-        "disciplina": "Processamento e Transmissão Digital de Sinais",
-        "metodo": "prova",
-        "descricao": "Avaliação de Recuperação",
-        "data": "2026-12-14",
+        "disciplina": "Laboratório de Circuitos Elétricos e Eletrônica",
+        "metodo": "trabalho",
+        "descricao": "Exercícios - Amplificador (individual em aula)",
+        "data": "2026-11-03",
         "confianca": "?"
       },
-      "ia": {
-        "disciplina": "Processamento e Transmissão Digital de Sinais",
-        "metodo": "prova",
-        "descricao": "Avaliação de Recuperação",
+      "ia": null
+    },
+    {
+      "status": "faltou_pendente",
+      "gabarito": {
+        "disciplina": "Redes de Computadores e Industriais",
+        "metodo": "trabalho",
+        "descricao": "Trabalhos de pesquisa e de projeto (individuais e em grupo) sobre implantação de redes industriais",
         "data": null,
-        "confianca": "baixa"
+        "confianca": "?"
+      },
+      "ia": null
+    },
+    {
+      "status": "extra",
+      "gabarito": null,
+      "ia": {
+        "disciplina": "13716-REDES DE COMPUTADORES E INDUSTRIAIS",
+        "metodo": "trabalho",
+        "descricao": "Início das apresentações dos trabalhos sobre protocolos de automação industrial",
+        "data": "2026-10-08",
+        "confianca": "alta"
+      }
+    },
+    {
+      "status": "extra",
+      "gabarito": null,
+      "ia": {
+        "disciplina": "13716-REDES DE COMPUTADORES E INDUSTRIAIS",
+        "metodo": "trabalho",
+        "descricao": "Apresentações dos trabalhos sobre protocolos de automação industrial",
+        "data": "2026-10-15",
+        "confianca": "alta"
+      }
+    },
+    {
+      "status": "extra",
+      "gabarito": null,
+      "ia": {
+        "disciplina": "13716-REDES DE COMPUTADORES E INDUSTRIAIS",
+        "metodo": "projeto",
+        "descricao": "Entrega e Apresentação dos projetos (1º dia)",
+        "data": "2026-11-19",
+        "confianca": "alta"
+      }
+    },
+    {
+      "status": "extra",
+      "gabarito": null,
+      "ia": {
+        "disciplina": "13716-REDES DE COMPUTADORES E INDUSTRIAIS",
+        "metodo": "projeto",
+        "descricao": "Entrega e Apresentação dos projetos (2º dia)",
+        "data": "2026-11-26",
+        "confianca": "alta"
+      }
+    },
+    {
+      "status": "extra",
+      "gabarito": null,
+      "ia": {
+        "disciplina": "13716-REDES DE COMPUTADORES E INDUSTRIAIS",
+        "metodo": "prova",
+        "descricao": "Atividade de Recuperação",
+        "data": "2026-12-03",
+        "confianca": "alta"
       }
     }
   ]
